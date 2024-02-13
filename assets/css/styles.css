@@ -29,6 +29,7 @@
 body {
   background: var(--background-default) no-repeat top center/cover; /* Shorthand */
   color: var(--text-color-default);
+  height: 100vh;
 }
 
 body * {
@@ -153,3 +154,15 @@ footer strong {
   font-weight: bold;
 }
 
+/* Media query */
+@media (min-width: 700px) {
+  :root {
+    --background-default: url('/assets/images/bg-desktop.jpg');
+  }
+}
+
+@media (min-width: 700px) {
+  .light {
+    --background-default: url('/assets/images/bg-desktop-light.jpg'); 
+  }
+}
