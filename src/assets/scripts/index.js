@@ -9,9 +9,9 @@ function toggle() {
   const desc = document.querySelector("#profile .text")
   // Update img attribute
   if(html.classList.contains('light')) {
-    img.setAttribute("src","../images/avatar-light.jpg");
+    img.setAttribute("src","./src/assets/images/avatar-light.jpg");
   } else {
-    img.setAttribute("src","../images/avatar.jpg");
+    img.setAttribute("src","./src/assets/images/avatar.jpg");
   }
 
   // Update text
